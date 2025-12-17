@@ -572,7 +572,7 @@ stdlib development is generously supported by the following sponsors:
 <div class="image" align="center">
     <br>
     <a href="https://zulip.com/">
-        <img src="https://raw.githubusercontent.com/stdlib-js/stdlib/refs/heads/develop/docs/assets/sponsors/zulip_logo.png" alt="Zulip">
+        <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@a6c5bd56c188c946bade9e5de285a8ada16f34f4/docs/assets/sponsors/zulip_logo.png" alt="Zulip">
     </a>
     <br>
     <br>
