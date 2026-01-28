@@ -182,7 +182,7 @@ As a general rule of thumb, use facets for categorical distinctions for which yo
 
 ### Method Name
 
-The benchmark name indicates that the benchmark is measuring the performance of a method: `ndarray` (e.g., `sgemm.native(...)`).
+The benchmark name indicates that the benchmark is measuring the performance of a method: `ndarray` (e.g., `sgemm.ndarray(...)`).
 
 The method name component may be thought of as a specialized facet, which is set apart from other facets in order to allow consolidation across methods and properties, while still retaining the ability to facet across other benchmark dimensions. As a general rule of thumb, use `:<method>` only when measuring a callable or property on the package's main export; use facets for implementation strategies, backends, or conceptual groupings.
 
