@@ -13,6 +13,7 @@ on:
         description: 'Pull request number to check'
         required: true
         type: number
+  roles: all
 
 permissions:
   contents: read
