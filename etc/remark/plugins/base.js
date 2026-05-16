@@ -20,11 +20,15 @@
 
 // MAIN //
 
-var config = {
-	'plugins': require( './plugins/base.js' )
-};
+var plugins = [];
+
+plugins.push( require( './frontmatter' ) );
+plugins = plugins.concat( require( './lint' ) );
+plugins.push( require( './eslint' ) );
+plugins.push( require( './lint-equations' ) );
+plugins.push( require( './validate-links' ) );
 
 
 // EXPORTS //
 
-module.exports = config;
+module.exports = plugins;

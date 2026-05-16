@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2026 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,17 +20,11 @@
 
 // MAIN //
 
-var plugins = [];
-
-plugins.push( require( './frontmatter' ) );
-plugins = plugins.concat( require( './lint' ) );
-plugins.push( require( './eslint' ) );
-plugins.push( require( './lint-equations' ) );
-plugins.push( require( './lint-expected-html-sections' ) );
-plugins.push( require( './lint-html-section-structure' ) );
-plugins.push( require( './validate-links' ) );
+var config = {
+	'plugins': require( './plugins/docs.js' )
+};
 
 
 // EXPORTS //
 
-module.exports = plugins;
+module.exports = config;
