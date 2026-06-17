@@ -25,9 +25,6 @@ on:
     types:
       - created
       - edited
-  commit_comment:
-    types:
-      - created
 
 # Workflow jobs:
 jobs:
